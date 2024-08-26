@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Imposto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Imposto sobre Salário</h1>
+    <div class="calculadora">
+        <label for="salario">Salário Mensal (R$):</label>
+        <input type="number" id="salario" placeholder="Insira o valor do salário" step="0.01">
+
+        <input type="button" value="Calcular Imposto" onclick="calcularImposto()">
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
